@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <img src="logo.png" class="logo">
+        <button  type="button" class="togglebtn">🌙</button>
+
+    </div>
+</header>
+<div class="recipe-container">
+    <h1 class="hero-heading"><i>Your Kitchen, Our Recipes 🍽️</i></h1>
+</div>
+<div class="recipe-details">
+    <button type="button" class="recipe-close-btn"><i class="fa-solid fa-xmark"></i></button>
+    <div class="recipe-detail-content"></div>
+</div>
+
+<main>
+    <div class="hero">
+        
+        <div class="input-dish">
+            <input type="text" id="searchInput" placeholder="Enter a Dish...">
+            <button type="submit" id="searchbtn">Search for Recipe...</button></div>
+    </div>
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>
